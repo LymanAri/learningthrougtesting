@@ -1,6 +1,14 @@
-$body-color: slateblue;
+del {color: red;
+}
+ins {color:green;
+}
+h3 {color: #CF981A;
+}
+table {
+    border-collapse: collapse;
+}
+table, tr, td, th {border: 1px solid black;
+}
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
+col { background: #FBD989
 }
