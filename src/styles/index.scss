@@ -1,21 +1,151 @@
-del {color: red;
+* {
+    
+    font-family: Zilla Slab,Lora,Georgia,Times,serif;
+    font: 18px;
+    
 }
-ins {color:green;
+
+header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    margin: -20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-h3 {color: #CF981A;
+
+header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+body {
+    background: whitesmoke ;
+    padding: 15px;
+    padding-top: 10px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 25%
+}
+
+footer {
+    clear: both;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px 5px;
+    margin: -20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+footer a {
+    float: right;
+    color: black;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+#acticleSection {
+    font-family: Zilla Slab,Lora,Georgia,Times,serif;
+    color: black;
+}
+
+
+#acticleSection h3 {
+    font-family: Zilla Slab,Lora,Georgia,Times,serif;
+    font-size: 28px;
+    font-weight: 400;
+    border-top: 2px solid 
+    #e90606;
+    border-left: 2px solid
+    #e90606;
+    padding-left: 5px;
+}
+
+#acticleSection h2 {
+    font-family: Zilla Slab,Lora,Georgia,Times,serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    border-top: 2px solid
+    #e90606;
+    border-bottom: 2px solid
+    #e90606;
+    margin-top: 40px;
+}
+
+#headerWithStyles {
+    color: white;
+    text-align: center;
+    background:  #e90606;
+    margin: 40px 10px;
+}
+
+
+.text-align-center {
+    text-align: center;
+}
+
+
+#sectionWithBackground {
+    background-color: lightblue;
+    background-image: url("https://img.freepik.com/free-vector/_1017-19742.jpg?size=626&ext=jpg");
+    //border: 3px solid black;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    //padding: 20px 10px 30px 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+img {
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+
+.roundImage {
+    border-radius: 300px;
+    float: right;
+    margin: 0px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+table, 
+tr, 
+td, 
+th {
+    border: 1px solid black;
 }
 
 table {
     border-collapse: collapse;
 }
-table, tr, td, th {border: 1px solid black;
-
-}
-table {
-    border-collapse: collapse;
-}
-table, tr, td, th {border: 1px solid black;
+table, 
+tr, 
+td, 
+th {
+    border: 1px solid black;
 }
 
-col { background: #FBD989
+col { 
+    background: rgba(255, 0, 0, 0.3);
 }
