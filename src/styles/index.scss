@@ -2,6 +2,7 @@
     
     font-family: Zilla Slab,Lora,Georgia,Times,serif;
     font: 18px;
+    text-align: justify;
     
 }
 
@@ -23,12 +24,25 @@ header a {
     font-size: 20px;
     line-height: 25px;
     border-radius: 4px;
+    text-transform: uppercase;
 }
 
 body {
     background: whitesmoke ;
     padding: 15px;
     padding-top: 10px;
+}
+
+p {
+    text-indent: 25px;
+    line-height: 1.5;
+    //direction: rtl;
+    word-spacing: 5px;
+}
+
+h3, h2 {
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5) ;
 }
 
 main {
@@ -49,6 +63,7 @@ footer {
     margin: -20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 footer a {
     float: right;
     color: black;
@@ -100,6 +115,23 @@ footer a {
 .text-align-center {
     text-align: center;
 }
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right ;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize h1, h2, h3 {
+    text-transform: capitalize;
+}
+
 
 
 #sectionWithBackground {
@@ -165,4 +197,7 @@ col {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 5px;
+    outline-style: auto;
+    outline-color: black;
+  //outline-width: none;
 }
