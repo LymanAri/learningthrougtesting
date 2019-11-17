@@ -1,30 +1,127 @@
 import "../styles/index.scss";
 
-const a = 20;
-console.log("Const = ", a);
-
-let b = 5;
-console.log("let = ", b);
-
-const sum = a + b;
-console.log(sum);
-
-const sub = a - b;
-console.log(sub);
-
-const mult = a * b;
-console.log(mult);
-
-const div = a / b;
-console.log(div);
-
-const frac = a % b;
-console.log(frac);
+const name = "Maryna";
+console.log(typeof name);
+const age = 22;
+console.log(typeof age);
+const height = 166;
+console.log(typeof height);
+const birthday = "04.08.1997";
+console.log(typeof birthday);
+const isSheTheOwnerOfAnimal = true ;
+console.log(typeof isSheTheOwnerOfAnimal);
 
 
+let user = {
+    name: "Maryna",
+    surname: "Lyman",
+    age: 22,
+    birthday: "the 4th of August",
+    height: 166,
+    hasAnimal: true,
+    };
+  
+    console.log(typeof user);
+    console.log(user.name);
+    console.log(user.surname);
+    console.log(user.age);
+    console.log(user.birthday);
+    console.log(user.hasAnimal);
+    
+    function shortBio() {
+        console.log(user.name + ' ' + user.surname + ' is ' + user.age + ' years old.');
+      }
+    shortBio ();
+
+    const pizza = {
+        sauce: "Red",
+        filling: "Peperoni",
+        size: "Big"
+    };
+
+    const burger = {
+        dressing: "1000 Island",
+        filling: "beef",
+        filling2: "cheese"
+    };
+
+    const pasta = {
+        sauce: "White",
+        filling: "Mushrooms",
+        size: "Small"
+    };
+
+    const myFavFood = ["pizza", "burgers", "pasta"];
+    console.log(typeof myFavFood);
+    console.log(myFavFood[0]);
 
 
 
+
+
+
+
+
+
+
+//const name = "Maryna";
+//console.log(typeof name);
+//const age = 22;
+//console.log(typeof age);
+//const height = 166;
+//console.log(typeof height);
+//const isHuman = true ;
+//console.log(typeof isHuman);
+//const isAnimal = false ;
+//console.log(typeof isAnimal);
+//let foodAlergy;
+//console.log(typeof foodAlergy);
+//let alergy = null;
+//console.log(typeof alergy);
+
+//const car = {
+    //color: "Red",
+    //numberOfDoors: 4,
+    //maxSpeed: 300,
+    //"Max speed":20
+//};
+
+//console.log(typeof car);
+//console.log(car.color);
+//console.log(car['Max speed']);
+
+//const car2 = {
+    //color: "Blue",
+    //numberOfDoors: 4,
+    //maxSpeed: 300,
+    //"Max speed":20
+//};
+
+//const myCars = [car, car2];
+//console.log(typeof myCars);
+//console.log(myCars[0]);
+//console.log(myCars[0].color);
+
+//const a = 20;
+//console.log("Const = ", a);
+
+//let b = 5;
+//console.log("let = ", b);
+
+//const sum = a + b;
+//console.log(sum);
+
+//const sub = a - b;
+//console.log(sub);
+
+//const mult = a * b;
+//console.log(mult);
+
+//const div = a / b;
+//console.log(div);
+
+//const frac = a % b;
+//console.log(frac);
 
 //console.log("camelCase");
 //console.log("kebab-case");
@@ -43,3 +140,4 @@ console.log(frac);
 //console.log("2009 - ECMAScript 5 ==> ES5");
 //console.log("2015 - ECMAScript 2015 ==> ES6");
 //console.log(">2015 - new releases");
+
