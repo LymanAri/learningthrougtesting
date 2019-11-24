@@ -1,4 +1,6 @@
 import "../styles/index.scss";
+//import video_1 from "..src/assets/video/Top_10_Things_to_do_Before_You_Die_-_.mp4";
+//import record from "..src/assets/audio/Snow Patrol - In The End (Whateverman Remix).mp3";
 
 const name = "Maryna";
 console.log(typeof name);
@@ -19,7 +21,7 @@ let user = {
     birthday: "the 4th of August",
     height: 166,
     hasAnimal: true,
-    };
+};
   
     console.log(typeof user);
     console.log(user.name);
@@ -54,13 +56,6 @@ let user = {
     const myFavFood = ["pizza", "burgers", "pasta"];
     console.log(typeof myFavFood);
     console.log(myFavFood[0]);
-
-
-
-
-
-
-
 
 
 
