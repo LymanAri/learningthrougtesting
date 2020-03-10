@@ -17,28 +17,31 @@ console.log(typeof isSheTheOwnerOfAnimal);
 let user = {
     name: "Maryna",
     surname: "Lyman",
-    age: 22,
     birthday: "the 4th of August",
     height: 166,
     hasAnimal: true,
+    age: 22,
+    "Age:" : 23,
+    getMarynaAge: function() {
+    console.log("Age:", this.age);
+   }
 };
-  
+
     console.log(typeof user);
     console.log(user.name);
     console.log(user.surname);
     console.log(user.age);
     console.log(user.birthday);
     console.log(user.hasAnimal);
-    
-    function shortBio() {
-        console.log(user.name + ' ' + user.surname + ' is ' + user.age + ' years old.');
-      }
-    shortBio ();
 
-    const pizza = {
+      const pizza = {
         sauce: "Red",
         filling: "Peperoni",
-        size: "Big"
+        size: "Big",
+        "Pizza Size": "Big",
+        getPizzaSize: function() {
+            console.log("Pizza Size", this.size);
+        }
     };
 
     const burger = {
@@ -55,7 +58,7 @@ let user = {
 
     const myFavFood = ["pizza", "burgers", "pasta"];
     console.log(typeof myFavFood);
-    console.log(myFavFood[0]);
+    console.log(myFavFood[0].size);
 
 
 
