@@ -24,10 +24,21 @@
     <a target="_blank" href="https://ua.linkedin.com/in/maryna-lyman-556a37171"><img class="roundImage"  src="../src/assets/linkedin1.png" alt="LinkedIn" width="25px"></a>
   </nav>
 </header>
-<body>
+<body onload="onPageLoad()">
   <main> 
 <br>
-      <section>
+      <section class="puddingInSection">
+          <input type="text" value="Hello" 
+          onchange="validateField(this.value)">
+          <br>
+          <input type="text" onkeydown="console.log('Key down')"
+          onkeyup="console.log('Key Up')">
+          <br>
+          <button onclick="buttonClick()">Click me</button>
+          <input type="button" value="What day is today?" 
+          onclick="showTodaysDate()">
+      </section>
+      <section>    
           <div id="serifFont">Font</div>
           <div id="sansSerifFont">Font</div>
           <div id="monospaceFont">Font</div>
@@ -173,7 +184,8 @@
   </section>
 
   <sections>
-    <div id="widthHeightTest">“Free time was the most precious time, when you should be doing what you loved, or at least slowing down enough to remember what made your life worthwhile and happy.” 
+    <div onmouseover="overDiv()" onmouseout="outDiv()"
+    id="widthHeightTest">“Free time was the most precious time, when you should be doing what you loved, or at least slowing down enough to remember what made your life worthwhile and happy.” 
     </div>
   </section>
 
