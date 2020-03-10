@@ -6,6 +6,35 @@
     
 }
 
+
+#serifFont {
+    font-family: 'Times New Roman', Times, Georgia, serif;
+}
+
+#sansSerifFont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#monospaceFont {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-bold {
+    font-style: bold;
+}
+
+//.font-oblique {
+//    font-style: oblique;
+//}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-small-caps {
+    font-variant: small-caps;
+}
+
 header {
     
     overflow: hidden;
@@ -42,6 +71,7 @@ p {
 
 h3, h2 {
     letter-spacing: 2px;
+    font-size: 2vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5) ;
 }
 
