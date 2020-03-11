@@ -6,21 +6,9 @@
     
 }
 
-
-#serifFont {
-    font-family: 'Times New Roman', Times, Georgia, serif;
-}
-
-#sansSerifFont {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#monospaceFont {
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .font-bold {
     font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 //.font-oblique {
@@ -28,10 +16,14 @@
 //}
 
 .font-italic {
+    font-family: 'Times New Roman', Times, Georgia, serif;
     font-style: italic;
+    
 }
 
 .font-small-caps {
+    
+    font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
 }
 
