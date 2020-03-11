@@ -5,16 +5,16 @@ import "../styles/index.scss";
 import "./events";
 
 
-const name = "Maryna";
-console.log(typeof name);
-const age = 22;
-console.log(typeof age);
-const height = 166;
-console.log(typeof height);
-const birthday = "04.08.1997";
-console.log(typeof birthday);
-const isSheTheOwnerOfAnimal = true ;
-console.log(typeof isSheTheOwnerOfAnimal);
+// const name = "Maryna";
+// console.log(typeof name);
+// const age = 22;
+// console.log(typeof age);
+// const height = 166;
+// console.log(typeof height);
+// const birthday = "04.08.1997";
+// console.log(typeof birthday);
+// const isSheTheOwnerOfAnimal = true ;
+// console.log(typeof isSheTheOwnerOfAnimal);
 
 
 let user = {
@@ -24,26 +24,18 @@ let user = {
     height: 166,
     hasAnimal: true,
     age: 22,
-    "Age:" : 23,
-    getMarynaAge: function() {
-    console.log("Age:", this.age);
-   }
-};
+    getUserBio: function() {
+    console.log("User's mame is" + this.name + this.surname + 
+    "." + "User was born on" + this.birthday + ".");
+    
+    console.log("----------------------------");
 
-    console.log(typeof user);
-    console.log(user.name);
-    console.log(user.surname);
-    console.log(user.age);
-    console.log(user.birthday);
-    console.log(user.hasAnimal);
-
-      const pizza = {
+    const pizza = {
         sauce: "Red",
         filling: "Peperoni",
         size: "Big",
-        "Pizza Size": "Big",
-        getPizzaSize: function() {
-            console.log("Pizza Size", this.size);
+        getObjectSize: function() {
+            console.log("Pizza size is", this.size);
         }
     };
 
@@ -62,6 +54,23 @@ let user = {
     const myFavFood = ["pizza", "burgers", "pasta"];
     console.log(typeof myFavFood);
     console.log(myFavFood[0].size);
+   }
+
+  
+};
+console.log("----------------------------");
+
+    console.log(typeof user);
+    console.log(user.name);
+    console.log(user.surname);
+    console.log(user.age);
+    console.log(user.birthday);
+    console.log(user.hasAnimal);
+
+
+    
+
+ 
 
 
 
