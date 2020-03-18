@@ -31,12 +31,30 @@
           <input type="text" value="Hello" 
           onchange="validateField(this.value)">
           <br>
-          <input type="text" onkeydown="console.log('Key down')"
+          <input 
+          name="hrefInputField"
+          type="text" onkeydown="console.log('Key down')"
           onkeyup="console.log('Key Up')">
           <br>
           <button onclick="buttonClick()">Click me</button>
           <input type="button" value="What day is today?" 
           onclick="showTodaysDate()">
+      </section>
+      <section>
+        <ol>
+          <li> Cat</li>
+          <li>Dog</li>
+        </ol>
+        <p class="red-text">I am red text</p>
+        <p id="specialP">I am red text</p>
+        <p class="red-text">I am red text2</p>
+        <a id="linkToSomewhere" href="#">I am going nowhere</a>
+        <br><button onclick="applycss()">Add Css</button>
+        <br>
+        <button onclick="setHref()">Set HREF to anchor tag</button>
+        <br>
+        <button id="newText" onclick="changeTextAndStyles()">Change text in me</button>
+        
       </section>
       <section>    
           <p class="font-bold">Text 1</p>

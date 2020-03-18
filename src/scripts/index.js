@@ -3,6 +3,7 @@ import "../styles/index.scss";
 //import record from "..src/assets/audio/Snow Patrol - In The End (Whateverman Remix).mp3";
 
 import "./events";
+import "./dom";
 
 
 // const name = "Maryna";
