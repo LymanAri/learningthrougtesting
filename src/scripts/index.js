@@ -24,48 +24,53 @@ let user = {
     height: 166,
     hasAnimal: true,
     age: 22,
+    myFavFood: ["pizza", "burgers", "pasta"],
     getUserBio: function() {
-    console.log("User's mame is" + this.name + this.surname + 
-    "." + "User was born on" + this.birthday + ".");
-    
-    console.log("----------------------------");
+    console.log("User's name is " + this.name + " " + this.surname + 
+    "." + "User was born on " + this.birthday + ".");
+    }
 
-    const pizza = {
-        sauce: "Red",
-        filling: "Peperoni",
-        size: "Big",
-        getObjectSize: function() {
-            console.log("Pizza size is", this.size);
-        }
-    };
-
-    const burger = {
-        dressing: "1000 Island",
-        filling: "beef",
-        filling2: "cheese"
-    };
-
-    const pasta = {
-        sauce: "White",
-        filling: "Mushrooms",
-        size: "Small"
-    };
-
-    const myFavFood = ["pizza", "burgers", "pasta"];
-    console.log(typeof myFavFood);
-    console.log(myFavFood[0].size);
-   }
-
-  
 };
-console.log("----------------------------");
 
+    console.log("----------------------------");
+    
     console.log(typeof user);
     console.log(user.name);
     console.log(user.surname);
     console.log(user.age);
     console.log(user.birthday);
     console.log(user.hasAnimal);
+
+//     const pizza = {
+//         sauce: "Red",
+//         filling: "Peperoni",
+//         size: "Big",
+//         getObjectSize: function() {
+//             console.log("Pizza size is", this.size);
+//         }
+//     };
+
+//     const burger = {
+//         dressing: "1000 Island",
+//         filling: "beef",
+//         filling2: "cheese"
+//     };
+
+//     const pasta = {
+//         sauce: "White",
+//         filling: "Mushrooms",
+//         size: "Small"
+//     };
+
+//     const myFavFood = ["pizza", "burgers", "pasta"];
+//     console.log(typeof myFavFood);
+//     console.log(myFavFood[0].size);
+//    }
+
+  
+// };
+// console.log("----------------------------");
+
 
 
     
