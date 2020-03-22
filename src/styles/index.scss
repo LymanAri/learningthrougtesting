@@ -100,7 +100,28 @@ footer a {
     line-height: 20px;
     border-radius: 4px;
   }
-  
+
+.ol-style > li {
+    color: chocolate;
+}
+
+.ol-style > ul > li {
+    color: red;
+}
+
+.combinators > div {
+    background-color: burlywood;
+}
+ 
+span + section {
+    background-color: yellow;
+}
+
+span ~ div {
+    background-color: green;
+}
+
+
 #acticleSection {
     font-family: Zilla Slab,Lora,Georgia,Times,serif;
     color: black;
