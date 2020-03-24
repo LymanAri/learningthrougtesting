@@ -1,15 +1,81 @@
-/* body,
+body,
 html {
     height: 100%;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
-.nav-styled {
+ ul a:link {
+    color: violet;
+ }
+
+ ul a:visited {
+    color: black;         
+} 
+
+ ul a:hover{
+     background: lightblue;
+     border: 1px solid slateblue;
+ }
+
+ ul a:active {
+     color:red;
+ }
+
+ ul a::after {
+     content:"("attr(href)")";
+ }
+
+ .highlight:hover {
+    background: #ffff00;
+    padding: 3px;
+    cursor: pointer;
+ }
+
+ .highlight > a {
+    display: none;
+}
+
+ .highlight:hover > a {
+     display: inline;
+ }
+
+ ul li:last-child {
+     color: green;
+ }
+
+ ul li:first-child {
+    color: lightgreen;
+}
+
+ul li:first-child::before {
+    color:crimson;
+    content: "Important - ";
+}
+
+ul li:last-child::after {
+    color: red;
+    content: " - dont forget!";
+}
+
+ul li:nth-child(5) {
+    color: aquamarine;
+}
+
+ul li:nth-child(9) {
+    color: plum;
+}
+
+.divForHover::first-letter {
+    font-size: 150%;
+    color:red;
+}
+
+::selection {
+    color: #ffffff;
+    background: black;
+}
+
+/*.nav-styled {
     width: 100%;
     background-color: rgb(234, 168, 243);
     border: 2px solid darkmagenta;
@@ -69,18 +135,18 @@ body {
     left: 180px;
     background: #ffffff;
     border: 7px solid #ffffff;
-    /* border-radius: 61px;
+    border-radius: 61px;
     display: flex;
     justify-content: center;
-    align-items: center;  */
-}
+    align-items: center;  
+ }
 
 hr {
     border: none; 
     background-color:#ffffff; 
     color:lightgrey;
     height: 5px; 
-}
+} */
 
 
 
