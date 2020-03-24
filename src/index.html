@@ -1,235 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="description" content="WEB page from online course Profrontend">  
-  <meta name="keywords" content="HTML, Your freetime">
-  <meta name="author" content="Maryna Lyman">
-  <!---<meta http-equiv="refresh" content="30"> --->
-  <title>testing</title>
-  <!---<script>alert("hello")</script> --->
-</head>
-
-</html>
-  <header> 
-  <nav>
-    <a href= "#">Main</a>
-    <a href= "#">Blog</a>
-    <a href= "#">Log in</a>
-    <a href= "#">Sign up</a>
-    <a target="_blank" href="https://www.facebook.com/marina.liman"><img  class="roundImage" src="../src/assets/facebook1.png"  alt="Facebook" width="25px"></a>
-    <a target="_blank" href="https://www.instagram.com/lyman.ari"><img  class="roundImage" src="../src/assets/instagram1.png"  alt="Instagram" width="25px"></a>
-    <a target="_blank" href="https://ua.linkedin.com/in/maryna-lyman-556a37171"><img class="roundImage"  src="../src/assets/linkedin1.png" alt="LinkedIn" width="25px"></a>
-  </nav>
-</header>
-<body onload="onPageLoad()">
-  <main> 
-<br>
-      <section class="puddingInSection">
-          <input type="text" value="Hello" 
-          onchange="validateField(this.value)">
-          <br>
-          <input 
-          name="hrefInputField"
-          type="text" onkeydown="console.log('Key down')"
-          onkeyup="console.log('Key Up')">
-          <br>
-          <button onclick="buttonClick()">Click me</button>
-          <input type="button" value="What day is today?" 
-          onclick="showTodaysDate()">
-      </section>
-      <section class="combinators">
-        <div>
-          Text Hello world
-        </div>
-        <span>Some text</span>
-        <section class="innerCombinator">
-          <span>More text</span>
-          <div>I am also div</div>
-        </section>
-      </section>
-      <section>
-        <ol class="ol-style">
-          <li> Cat</li>
-          <li>Dog</li>
-         
-          <ul>
-            <li>Fish</li>
-            <li>
-              <span>Snake</span>
-              <section>Ohh snake</section>
-            </li>
-          </ul>
-        </ol>
-        <p class="red-text">I am red text</p>
-        <p id="specialP">I am red text</p>
-        <p class="red-text">I am red text2</p>
-        <a id="linkToSomewhere" href="#">I am going nowhere</a>
-        <br><button onclick="applycss()">Add Css</button>
-        <br>
-        <button onclick="setHref()">Set HREF to anchor tag</button>
-        <br>
-        <button id="newText" onclick="changeTextAndStyles()">Change text in me</button>
-        
-      </section>
-      <section>    
-          <p class="font-bold">Text 1</p>
-          <p class="font-italic">Text 2</p>
-          <p class="font-small-caps">Text 3</p>
-        </section>
-   <section id="acticleSection">
-     
-  <article> 
-     <h2>How to Have the Most Fun in Your Free Time, According to Science </h2>   
-    <p>The calendar is an indispensable tool in our over-committed and over-stimulated culture, and one no longer reserved solely for work commitments and appointments. Many busy people, faced with ever-dwindling free time, resort to scheduling everything from time with friends and family to sex with a partner.
-    </p>
-    <h3>But is scheduling your free time a good idea?</h3>
-    <p>Researchers from Ohio State University’s Fisher College of Business and Rutgers Business School evaluated existing research (much of it their own) on time management tactics and how they affect the uptake, outcome and enjoyment of various activities. Many of their assessments, which are published in the journal Current Opinion in Psychology, are in line with conventional productivity wisdom. They determined that scheduling an activity increases the likelihood that it’ll get done, for example, and that multitasking helps people achieve more, but with spottier results.
-    </p>
-    <p> When it comes to enjoying leisure activities, however, the researchers found that classic time management strategies may backfire. Just as with work tasks or errands, science shows that getting fun activities on the calendar increases your chances of getting them done — but there’s a cost, according to the researchers’ analysis. Here’s how to plan your free time without sacrificing fun.
-    </p>
-    <h3>Keep it vague</h3>
-    <p>Studies have shown that any amount of scheduling may reduce your enjoyment of leisure activities by disrupting their “free-flowing nature,” the researchers write. But if putting a friend date or shopping trip in your planner is the only way it’ll get done, keep the timing as loose as possible. The researchers suggest designating chunks of time rather than specific hours — “after work” is better than “at 6 p.m.,” for example.</p>
-    <h3>Give yourself time</h3>
-    <p> When you find yourself with an expanse of free time, it’s tempting to squeeze in as many fun activities as possible. But studies show that imposing a hard stop on a fun activity — even if it’s to start another pleasant thing — will subconsciously affect your ability to enjoy it while it’s happening. This phenomenon, the researchers write, may be related to our tendency to underestimate how much we can fit into blocks of time — hence why you may find yourself whittling away the 30 minutes before a meeting instead of starting a new task. When it comes to free time, letting the day unfold organically is a better strategy.</p>
-    <h3>Stay in the moment</h3>
-    <P> In a similar vein, the analysis showed that, independent of time pressure, the “mere knowledge of future upcoming activities may also undermine enjoyment,” perhaps because it takes participants out of the moment and splits their attention. The researchers recommend resisting the temptation to over-plan, and instead focusing on one activity at a time. </P>
-  
-  </article>
- </section>
-
-<section class="imageSection">
-  <img  src="../src/assets/people-relaxing-home-set-leisure-spare-time_93633-592.jpg" alt="free time" height="200" width="350" >
-  <img  src="../src/assets/people-relaxing-home-set-leisure-spare-time_9kjynhtgr3633-592.jpg" alt="free time2" height="200" width="425" >
-</section>
-
-<section>
-  <h1>Video</h1>
-  <video controls width="560" height="315">
-    <source src="../src/assets/video/Top_10_Things_to_do_Before_You_Die_-_.mp4"/>
-      Your browser doesn't support your video
-    </video>
-  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/n3kNlFMXslo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </br>
-  <br>
-    <audio controls>
-        <source src="../src/assets/audio/Snow Patrol - In The End (Whateverman Remix).mp3" type="audio/mpeg">
-      </audio>
-      <br/>
-  
-  </section>
-
-
-<section> 
-  <h3 class="text-align-right">Header 1</h3>
-  <h3 class="text-align-center">Header 2</h3>
-  <h3 class="text-align-left">Header 3</h3>
-</section>
-
-<section>
-  <p class="text-lowercase">Some text</p>
-  <p class="text-capitalize">text text</p>
-  <p>Text Text Text</p>
-</section>
-
-  </main>
-  
-  <aside>
-      <section class='tableSection'> 
-          <h2 id="headerWithStyles">First Task. Table</h2>
-      
-          <table>
-            <colgroup>      
-              <col>
-            </colgroup>
-          <thead>
-            <tr>
-              <th rowspan="3">Day</th>
-              <th colspan="4">Module 2 - ProFrontend</th>
-            </tr>
-            <tr>
-              <th colspan="2">Plan</th>
-              <th rowspan="2" colspan="2">Topics</th>
-            </tr>
-            <tr>
-              <th> Start </th>
-              <th> End </th>
-            </tr>
-            </thead>
-        
-            <tbody>
-              <tr>
-                <td rowspan="2">Monday</td>
-                <td rowspan="2">20:00</td>
-                <td rowspan="2">21:00</td>
-                <td>HTML:Lists</td>
-              </tr>
-              <tr>
-                <td>HTML:Tables</td>
-              </tr>
-              <tr>
-                <td>Wednesday</td>
-                <td>19:00</td>
-                <td>22:00</td>
-                <td>HTML:Links and images</td>
-              </tr>
-        
-              <tr>
-                <td>Friday</td>
-                <td>21:00</td>
-                <td>22:00</td>
-                <td>Homework</td>
-              </tr>
-            </tbody>
-        
-            <tfoot>
-             <!-- No table footer -->
-            </tfoot>
-          </table>
-      </section>
-      
-  <h2 id="headerWithStyles">Second Task. Lists</h2>
- 
-    <section id="sectionWithBackground">
-    
-      <h3 class="text-align-center">Series&Movies List</h3>
-        <ul>
-           <li>Sitcom</li>
-            <ol>
-              <li>Brooklyn Nine-Nine</li>
-              <li>The Big Bang Theory</li>
-              <li>Modern Family</li>
-              </ol>
-              <li>Drama</li>
-            <ol>
-              <li>The Handmade's Tale</li>
-              <li>The Crown</li>
-              <li>Drama Movies</li>
-                <ul type="square">
-                  <li>Lady Bird</li>
-                  <li>12 Years a Slave</li>
-                </ul>
-              </ol>
-            </ul>
-  </section>
-
-  <sections>
-    <div onmouseover="overDiv()" onmouseout="outDiv()"
-    id="widthHeightTest">“Free time was the most precious time, when you should be doing what you loved, or at least slowing down enough to remember what made your life worthwhile and happy.” 
-    </div>
-  </section>
-
-  </aside>
-  <footer>
-    <nav> 
-      <a href="#">Home Page</a>
-      <a href="#">Contact us</a>
-      <a href="#">About Us</a>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="WEB page from online course Profrontend">  
+    <meta name="keywords" content="HTML, Your freetime">
+    <meta name="author" content="Maryna Lyman">
+    <!---<meta http-equiv="refresh" content="30"> --->
+    <title>Position</title>
+    <!---<script>alert("hello")</script> --->
+  </head>
+  <body>
+    <nav class="nav-styled position-sticky">
+      <a href="a">Home</a>
+      <a href="a">About</a>
     </nav>
-  </footer>
-</body>
-  
-  </html>
+    <br>
+      <div class="parent">
+        <img src="http://sharpairlines.com/assets/Photos/img-gift-voucher.jpg" alt="Gift in hands" height="200" width="400" >
+        <div class="child">Get your Gift</div>
+      </div>
+      <br>
+      <br>
+      <div class="parent2">
+       <div class="child2"><i class="fas fa-gift"></i></div>
+      </div>
+     </body> 
+</html>

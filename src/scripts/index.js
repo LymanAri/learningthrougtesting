@@ -1,4 +1,5 @@
 import "../styles/index.scss";
+import "@fortawesome/fontawesome-free/js/all";
 //import video_1 from "..src/assets/video/Top_10_Things_to_do_Before_You_Die_-_.mp4";
 //import record from "..src/assets/audio/Snow Patrol - In The End (Whateverman Remix).mp3";
 
