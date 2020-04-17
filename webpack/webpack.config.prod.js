@@ -24,9 +24,9 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
+        use: 'file-loader'
       },
       {
         test: /\.s?css/i,
