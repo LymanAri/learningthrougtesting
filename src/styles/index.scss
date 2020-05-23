@@ -1,1 +1,76 @@
-@import "~bootstrap/scss/bootstrap";
+html,
+body,
+.lists-container {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.lists-container > .row {
+    height: 50%;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+  
+.lists-container > .row > .col-6 {
+    border-right: 1px solid #bbbbbb;
+}
+  
+.lists-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+    
+.fa-trash {
+    display: none;
+    }
+
+li {
+    cursor: pointer;
+}
+  
+li:hover {
+    .fa-trash {
+        display: inline;
+        color: #9c22ff;
+    }
+}
+
+
+.doneList li {
+    text-decoration: line-through;
+}
+
+.header-background {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+#importantAndUrgent {
+    background-color: rgb(255, 219, 253);
+    .header-background {
+        background-color: rgb(243, 152, 223);
+    }
+}
+
+#importantAndNotUrgent {
+    background-color: rgb(164, 196, 255);
+    .header-background {
+        background-color: rgb(96, 155, 221);
+    }
+}
+
+#notImportantAndUrgent {
+    background-color: rgb(255, 249, 224);
+    .header-background {
+        background-color: rgb(247, 248, 155);
+    }
+}
+
+#notImportantAndNotUrgent {
+    background-color: rgb(191, 216, 216);
+    .header-background {
+        background-color: rgb(130, 177, 163);
+    }
+}
